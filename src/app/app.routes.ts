@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: '**', redirectTo: '' },
   { path: 'news', component: NewsComponent },
   { path: 'devices', component: DevicesComponent },
   { path: 'roof-signs', component: RoofSignsComponent },
