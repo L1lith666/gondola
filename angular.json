@@ -14,6 +14,8 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/taxi-center-website",
+            "baseHref": "/taxi-center-website/",
+            "deployUrl": "/taxi-center-website/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
