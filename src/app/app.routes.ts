@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-<<<<<<< HEAD
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { DevicesComponent } from './devices/devices.component';
@@ -18,7 +17,3 @@ export const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent }
 ];
-=======
-
-export const routes: Routes = [];
->>>>>>> 6c74d01c (initial commit)
